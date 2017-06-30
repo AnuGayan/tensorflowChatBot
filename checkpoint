@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/anusha/WSO2/Projects/PycharmProjects/TensorflowChat/model.tflearn"
+all_model_checkpoint_paths: "/home/anusha/WSO2/Projects/PycharmProjects/TensorflowChat/model.tflearn"

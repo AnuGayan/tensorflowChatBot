@@ -1,0 +1,98 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello, thanks for visiting",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag":"Purchase count",
+      "patterns":[
+        "Who bought ",
+        "Can you tell me the purchase details about ",
+        "How many purchases",
+        "purchase count for",
+        "product purchase count"
+      ],
+      "responses":[
+        "purchaseCount"
+      ]
+    },
+    {
+      "tag":"What Can you Do",
+      "patterns":[
+        "What can you do ",
+        "What are you capable of ",
+        "How can you help me",
+        "What are your capabilities",
+        "product purchase count"
+      ],
+      "responses":[
+        "I can help you to find out about WSO2 products, what they can do, how many customers that we have and how many product purchases in last week, last month and last year."
+      ]
+    },
+    {
+      "tag":"About",
+      "patterns":[
+        "What is ?",
+        "Tell me about ",
+        "I would like to know about "
+
+      ],
+      "responses":[
+        "about"
+      ]
+    },{
+      "tag":"products",
+      "patterns":[
+        "What are WSO2 products",
+        "How many products that wso2 have?",
+        "products",
+        "products wso2",
+        "What are the products that wso2 have?"
+
+      ],
+      "responses":[
+        "We have 5 main products. They are Data Analytics Server(DAS), IoT Server, Enterprise Integrator(EI), API Manager(APIM) and Identity Server(IS)."
+      ]
+    }
+  ]
+}
+
